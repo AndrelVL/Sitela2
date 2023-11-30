@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+
+
+}
+
+
+body {
+  background-color: #1C1C1C;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+#div-2 {
+  margin-top: 10px;
+}
+
+#div-2 h1 {
+  margin-bottom: 24px;
+}
+
+/*NAV*/
+#list-1 > li a {
+  color: black;
+  text-decoration: none;
+  padding: 0px 50px 10px 0;
+  font-size: 15px;
+  position: relative;
+}
+
+#list-1 > li a::after {
+  content: " ";
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom:6px;
+  left: 2px;
+  transition: 0.5s ease-in-out;
+}
+
+#list-1 > li a:hover::after {
+  width: 75%;
+
+}
+
+article p {
+  font-size: 20px;
+}
+
+article h1 {
+
+  font-size: 43px;
+
+}
+
+/*END NAV*/
+
+footer {
+  width: 100%;
+  height: 20%;
+  background-color: rgb(49, 49, 49);
+  color: gray;
+  align-items: center;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 20px;
+  
+}
+
+footer #text-link {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+footer #text-link:hover {
+  text-decoration: underline;
+}
+
+footer #image-link {
+  color: rgb(128, 128, 128);
+}
+
+#home {
+  padding: 2px;
+}
+
+p {
+  margin-top: 24px;
+}
+
+section {
+  padding: 12px;
+}
+
+#div-1{
+  margin-top: 22px;
+}
+
+#title-1, #texto-rin {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#jubilu {
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  padding: 0;
+  margin: 0;
+}
+
+#apoio > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+#apoio > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+
+/*Responsive-pt-1*/
+
+@media(min-width: 300px) and (max-width: 400px){
+  body {
+    width: 160vh;
+  }
+
+  #header > nav > div > ul > li a  {
+    font-size: 40px;
+    margin-top: 4px;
+    font-weight: 500;
+    
+  }
+
+  #header > nav > div > ul > li h4 {
+    font-size: 70px;
+    font-weight: 500;
+  }
+
+  #header > nav > div > ul > li div > button {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  section {
+    font-size: 40px;
+    padding-top: 16px;
+  }
+
+  h1 {
+    font-size: 78px;
+  }
+
+  h4 {
+    font-size: 44px;
+  }
+
+}
+
+/*Responsive-pt-2*/
+@media(min-width: 401px) and (max-width: 450px){
+  body {
+    width: 180vh;
+  }
+
+  #header > nav > div > ul > li a  {
+    font-size: 50px;
+    margin-top: 4px;
+    font-weight: 500;
+    
+  }
+
+  #header > nav > div > ul > li h4 {
+    font-size: 70px;
+    font-weight: 500;
+  }
+
+  #header > nav > div > ul > li div > button {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+
+  section {
+    font-size: 40px;
+    padding-top: 16px;
+  }
+
+  h1 {
+    font-size: 78px;
+  }
+
+  h4 {
+    font-size: 44px;
+  }
+
+
+
+}
